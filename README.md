@@ -1,4 +1,4 @@
-<p align="center"><a href="https://ongoingdev.github.io/" target="_blank"><img src="assets/images/ongoingdev.jpg" width="400"></a></p>
+<p align="center"><a href="https://ongoingdev.github.io/" target="_blank"><img src="assets/images/logo_square.png" width="400"></a></p>
 
 ## On Going Development
 Landing Page On Going Development
