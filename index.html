@@ -1,37 +1,47 @@
 <!DOCTYPE html>
 <html lang="id">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,700,900" rel="stylesheet">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-    <title>Game Edukasi dan Aplikasi Pembelajaran - Jasa Aplikasi Pembelajaran | On Going Development</title>
+    <title>Game Edukasi dan Aplikasi Pembelajaran - Jasa Aplikasi Pembelajaran | On Going Dev</title>
     <meta name="google-site-verification" content="Hsqhm5TokEKt9xWvvmsS8CeHjgpSEJ7f8TbJiOhmXQ4" />
+    <meta name="theme-color" content="#7F00FF" />
 
-    <!-- Favicon -->
-    <link rel="apple-touch-icon" href="assets/images/icon.png">
-    <link rel="icon" href="assets/images/icon.png" />
+    <!-- Imports the manifest to represent the web application. A web app must have a manifest to be a PWA. -->
+    <link rel="manifest" href="/manifest.json" />
 
     <!-- Canonical SEO -->
     <link rel="canonical" href="https://ongoingdev.github.io" />
 
     <!--  Social tags      -->
     <meta name="description" content="On Going Development bertujuan menjadi tempat mewujudkan ide atau inovasi pembelajaran menjadi produk yang interaktif, tampilan menarik, dan mudah digunakan.">
-	<meta name="keywords" content="on going development, on going dev, on going, ogd, og dev, ongoing, og, ogdev, inovasi pembelajaran, media pembelajaran, media pembelajaran interaktif, game edukasi, edu game, edu games, aplikasi pembelajaran, media evaluasi, edugame, edukasi, pendidikan, indonesia belajar, merdeka belajar, belajar jadi seru, pendidikan indoesia, fakultas pendidikan, guru, calon guru, pendidik, calon pendidik, anak pendidikan, mahasiswa pendidikan, aku anak cerdas">
+	<meta name="keywords" content="on going development, on going dev, on going, ogd, og dev, ongoing, og, ogdev, inovasi pembelajaran, media pembelajaran, media pembelajaran interaktif, game edukasi, edu game, edu games, aplikasi pembelajaran, media evaluasi, edugame, edukasi, pendidikan, indonesia belajar, merdeka belajar, belajar jadi seru, pendidikan indonesia, fakultas pendidikan, guru, calon guru, pendidik, calon pendidik, anak pendidikan, mahasiswa pendidikan, aku anak cerdas">
+
+    <!-- These meta tags for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="On Going Dev">
+    <link rel="icon" href="assets/images/icon.png">
+
+    <!-- These meta tags are Apple-specific, and set the web application to run in full-screen mode with a black status bar. Learn more at https://developer.apple.com/library/archive/documentation/AppleApplications/Reference/SafariHTMLRef/Articles/MetaTags.html-->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="On Going Dev" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <link rel="apple-touch-icon" href="assets/images/icon.png" />
 
     <!-- Schema.org markup for Google+ -->
-    <meta itemprop="name" content="On Going Development">
+    <meta itemprop="name" content="On Going Dev">
     <meta itemprop="description" content="On Going Development ada untuk Masa Depan Pembelajaran.">
     <meta itemprop="image" content="assets/images/logo_main.png">
 
     <!-- Open Graph data -->
     <meta property="fb:app_id" content="546088187252877">
-    <meta property="og:title" content="On Going Development" />
+    <meta property="og:title" content="On Going Dev" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://ongoingdev.github.io/" />
     <meta property="og:image" content="assets/images/logo_main.png"/>
     <meta property="og:description" content="On Going Development ada untuk Masa Depan Pembelajaran." />
-    <meta property="og:site_name" content="On Going Development" />
+    <meta property="og:site_name" content="On Going Dev" />
 
     <meta name="robots" content="all" />
     
@@ -970,5 +980,10 @@
     <!-- Global Init -->
     <script src="assets/js/custom.js"></script>
 
+    <script>
+        if ('serviceWorker' in navigator) {
+          navigator.serviceWorker.register('/sw.js');
+        }
+      </script>
   </body>
 </html>
